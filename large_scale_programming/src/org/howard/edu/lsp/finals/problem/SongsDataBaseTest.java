@@ -37,6 +37,7 @@ public class SongsDataBaseTest {
 		assertEquals(0, countrySongs.size());
 	}
 	
+	@Test
 	public void testGetSongs() {
 		SongsDatabase songDatabase = new SongsDatabase();
 		songDatabase.addSong("Rap", "Savage");
@@ -65,7 +66,7 @@ public class SongsDataBaseTest {
 		
 	}
 	
-	
+	@Test
 	public void testGetGenreOfSong() {
 		SongsDatabase songDatabase = new SongsDatabase();
 		songDatabase.addSong("Rap", "Savage");
